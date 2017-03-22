@@ -18,6 +18,6 @@ public class TestInterface implements Java8Interface{
     
     public static void main(String[] args) {
         TestInterface face = new TestInterface();
-        face.testTheValue();
+        System.out.println("THis is the change");
     }
 }
