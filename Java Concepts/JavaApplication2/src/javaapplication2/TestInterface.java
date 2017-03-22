@@ -15,4 +15,9 @@ public class TestInterface implements Java8Interface{
     void testTheValue(){
         System.out.println("The Default Value of the Interface Object: "+Java8Interface.TESTINTEGER);
     }
+    
+    public static void main(String[] args) {
+        TestInterface face = new TestInterface();
+        face.testTheValue();
+    }
 }
