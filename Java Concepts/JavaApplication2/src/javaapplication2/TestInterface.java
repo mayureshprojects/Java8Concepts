@@ -6,6 +6,7 @@
 package javaapplication2;
 
 import com.java.testconcepts.interfaces.Java8Interface;
+import sun.awt.X11.XConstants;
 
 /**
  *
@@ -19,5 +20,6 @@ public class TestInterface implements Java8Interface{
     public static void main(String[] args) {
         TestInterface face = new TestInterface();
         System.out.println("THis is the change");
+        System.out.println("THis is another Line2");
     }
 }
