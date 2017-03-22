@@ -21,5 +21,6 @@ public class TestInterface implements Java8Interface{
         TestInterface face = new TestInterface();
         System.out.println("THis is the change");
         System.out.println("THis is another Line2");
+        System.out.println("THis is third Libne");
     }
 }
